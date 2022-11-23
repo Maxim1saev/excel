@@ -1,0 +1,47 @@
+{
+  "name": "exele",
+  "version": "1.0.0",
+  "description": "Pure js excel application",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --open",
+    "build": "cross-env NODE_ENV=production webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maxim1saev/excel.git"
+  },
+  "keywords": [
+    "js",
+    "excel"
+  ],
+  "author": "Isaev Maxim <isaevmaxim1905@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maxim1saev/excel/issues"
+  },
+  "homepage": "https://github.com/Maxim1saev/excel#readme",
+  "browserslist": "> 0.25%, not dead",
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/preset-env": "^7.20.2",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^9.1.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "cross-env": "^7.0.3",
+    "css-loader": "^3.4.2",
+    "eslint": "^8.28.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-webpack-plugin": "^3.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "sass": "^1.56.1",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
